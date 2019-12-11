@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: springboot-multi-db
+  mandatory_file_encoding: UTF-8
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.PostgreSQL9Dialect
+
+db1:  
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/demo
+    validationQuery: SELECT 1
+    username: postgres
+    password: postgres
+    poolsize:
+      min: 1
+      max: 5
+    sql:
+      show: false
+      format: false
+  
+      
+db2:  
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/digilib
+    validationQuery: SELECT 1
+    username: postgres
+    password: postgres
+    poolsize:
+      min: 1
+      max: 5
+    sql:
+      show: false
+      format: false
