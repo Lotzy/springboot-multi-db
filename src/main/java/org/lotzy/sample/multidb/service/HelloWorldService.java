@@ -45,13 +45,13 @@ public class HelloWorldService {
 
 	public String getHelloMessage() {
 
-    User user = new User();
-    user.setUserId(1L);
-    user.setName("TestName");
-    user.setSurname("TestSurname");
-    user.setCreatedAt(new Date());
-    user.setUpdatedAt(new Date());
-    User savedUser = userRepo.save(user);
+		User user = new User();
+		user.setUserId(1L);
+		user.setName("TestName");
+		user.setSurname("TestSurname");
+		user.setCreatedAt(new Date());
+		user.setUpdatedAt(new Date());
+		User savedUser = userRepo.save(user);
 
 		Video video = new Video();
 		video.setVideoId(1L);
