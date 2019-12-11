@@ -31,7 +31,7 @@ import org.springframework.stereotype.Service;
  * Description: Service class that will use JPA repositories to do some DB operations
  * </pre>
  *
- * @author Lotzy (lotzy_l@yahoo.com)
+ * @author Lotzy
  * @version 1.0
  */
 @Service

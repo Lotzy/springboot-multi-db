@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * Description: JPA Repository interface declaration
  * </pre>
  *
- * @author Lotzy (lotzy_l@yahoo.com)
+ * @author Lotzy
  * @version 1.0
  */
 public interface UserRepository extends JpaRepository<User, String> {

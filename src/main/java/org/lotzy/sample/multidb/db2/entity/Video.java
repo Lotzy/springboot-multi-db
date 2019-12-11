@@ -10,7 +10,7 @@ import javax.persistence.Table;
  * Description: JPA Entity for Videos
  * </pre>
  *
- * @author Lotzy (lotzy_l@yahoo.com)
+ * @author Lotzy
  * @version 1.0
  */
 @Entity

@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * Description: JPA Repository interface declaration for Video entities
  * </pre>
  *
- * @author Lotzy (lotzy_l@yahoo.com)
+ * @author Lotzy
  * @version 1.0
  */
 public interface VideoRepository extends JpaRepository<Video, Long> {

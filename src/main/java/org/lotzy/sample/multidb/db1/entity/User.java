@@ -12,7 +12,7 @@ import javax.persistence.Table;
  * Description: JPA Entity for user, careful, table with name "user" might give you problems, that's why is named tbl_user
  * </pre>
  *
- * @author Lotzy (lotzy_l@yahoo.com)
+ * @author Lotzy
  * @version 1.0
  */
 @Entity

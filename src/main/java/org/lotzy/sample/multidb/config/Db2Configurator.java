@@ -23,7 +23,7 @@ import com.zaxxer.hikari.HikariDataSource;
  * Description: Second datasource configuration class
  * </pre>
  *
- * @author Lotzy (lotzy_l@yahoo.com)
+ * @author Lotzy
  * @version 1.0
  */
 

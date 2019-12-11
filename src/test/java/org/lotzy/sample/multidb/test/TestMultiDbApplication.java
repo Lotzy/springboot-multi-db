@@ -32,7 +32,7 @@ import org.springframework.test.context.junit4.SpringRunner;
  * Description: Tests for {@link MultiDbApplication}.
  * </pre>
  *
- * @author Lotzy (lotzy_l@yahoo.com)
+ * @author Lotzy
  * @version 1.0
  */
 @RunWith(SpringRunner.class)

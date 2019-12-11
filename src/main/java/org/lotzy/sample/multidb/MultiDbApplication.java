@@ -30,7 +30,7 @@ import org.springframework.context.annotation.Configuration;
  * Description: Main class for the Spring Boot application
  * </pre>
  *
- * @author Lotzy (lotzy_l@yahoo.com)
+ * @author Lotzy
  * @version 1.0
  */
 @Configuration
